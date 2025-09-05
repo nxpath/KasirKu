@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
 
     defaultConfig {
         applicationId "com.chipo.cashier"
-        minSdkVersion 19
-        targetSdkVersion 26
+        minSdkVersion 24
+        targetSdkVersion 34
     }
 
     buildTypes {
@@ -26,3 +26,4 @@ dependencies {
     implementation files('libs/NineOldAndroid-2.4.0.jar')
 
 }
+
